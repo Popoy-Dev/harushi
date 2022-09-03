@@ -1,0 +1,336 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>Ronin - Multipurpose Portfolio Template</title>
+	<meta name="description" content="">
+	<meta name="author" content="madsparrow">
+	<meta name="copyright" content="madsparrow">
+	<link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" media="all">
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	<link rel="stylesheet" href="assets/js/google-code-prettify/prettify.css" media="screen">
+	<script src="assets/js/google-code-prettify/prettify.js"></script>
+	<link rel="icon prefetch" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+</head>
+<body class="documenter-project">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+			<li><a href="#head" title="header">Header</a></li>
+			<li><a href="#slider" title="home_slider">Home Slider</a></li>
+			<li><a href="#heading" title="Heading">Heading</a></li>
+			<li><a href="#team" title="team">Team</a></li>
+			<li><a href="#grid" title="grid">Grid gallery</a></li>
+			<li><a href="#news" title="News">News</a></li>
+			<li><a href="#other" title="other">Other</a></li>
+			<li><a href="#css_stucture" title="CSS Stucture">CSS Stucture</a></li>
+			<li><a href="#jquery_stucture" title="JQUERY Stucture">JQUERY Stucture</a></li>
+			<li><a href="#source_credits" title="Source & Credits">Source & Credits</a></li>
+		</ul>
+		<div id="documenter_copyright">Copyright madsparrow 2016</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+		<h1>Ronin</h1>
+		<h2>Multipurpose Portfolio Template</h2>
+		<hr>
+		<ul>
+			<li>Created: 01/11/2016</li>
+			<li>Latest update: 01/11/2016</li>
+			<li>Demo url: <a href="https://themeforest.net/item/ronin-multipurpose-portfolio-template/18706118?s_rank=5"> Ronin - Multipurpose Portfolio Template</a></li>
+			<li>By: <a href="https://themeforest.net/user/madsparrow">madsparrow</a></li>			
+			<li>Support: contact@madsparrow.us</li>
+		</ul>
+	</section>
+<div class="container">
+
+<!-- Header -->
+<section id="head">
+		<div class="page-header">
+			<h3>Header</h3>
+			<hr class="notop">
+		</div>
+	     <div class="bs-docs-example" id="headertext" style="text-align: center;" data-content="Example">
+	    	<img src="assets/images/header.png">
+	     </div>
+		<pre class="prettyprint lang-html linenums">
+<xmp><nav class="header row auto-hide-header page-transition">
+    <div class="header-inner">
+        <div class="logo col-xs-10 col-md-2">
+            <a href="index.html">
+                <img src="assets/images/logo.png" alt="logo">
+            </a>
+        </div>
+            <div class="col-xs-2 col-md-10 visible-xs">
+                <a href ="#" class="nav-trigger">
+                    <span><em aria-hidden="true"></em>Menu</span>
+                </a>
+            </div>
+        <!-- Menu -->
+            <div class="menu col-sm-8 col-md-10" id="menu">
+                <ul>
+                    <li><a href="link.html">link</a></li>
+                    <li><a href="#">link</a>
+                        <ul class="sub-menu">
+                            <li><a href="link.html">link</a></li>
+                            ...
+                        </ul>
+                    </li>
+               </ul>
+            </div>
+        <!-- Menu -->
+    </div>
+</nav></xmp></pre>
+<!-- /Header -->
+</section>
+
+<section id="slider">
+<!-- Home slider -->
+		<div class="page-header">
+			<h3>Home Slider</h3>
+			<hr class="notop">
+		</div>
+	     <div class="bs-docs-example" id="headertext" style="text-align: center;" data-content="Example">
+	    	<img src="assets/images/slider.png">
+	     </div>
+		<pre class="prettyprint lang-html linenums"><xmp><ul class="home-slider-horizontal">
+<!-- Slide -->
+    <li class="slide">
+        <a href="link.html">
+            <div class="s-bg" style="background-image: url(your_image.jpg)"></div>
+            <div class="slide-desc">
+                <h2>what we do</h2>
+            </div>
+        </a>
+    </li>
+<!-- /Slide -->
+...
+</ul></xmp></pre>
+<!-- Home slider -->
+</section>
+
+<section id="heading">
+<!-- Heading -->
+		<div class="page-header">
+			<h3>Heading</h3>
+			<hr class="notop">
+		</div>
+ <div class="bs-docs-example" id="headertext" style="text-align: center;" data-content="Example">
+	<img src="assets/images/heading.png">
+ </div>
+<pre class="prettyprint lang-html linenums"><xmp><!-- Header -->
+<div class="heading">
+    <h2 class="head-text">
+        <span>title</span>
+        <span>subtitle</span>
+    </h2>
+    <ul class="breadcrumb page-transition">
+        <li><a href="index.html">link</a></li>
+        <li class="current-crumb"><a href="link.html">link</a></li>
+    </ul>
+</div>
+<!-- /Header -->
+</xmp></pre>
+<!-- /Heading -->
+</section>
+
+<section id="team">
+<!-- Team -->
+		<div class="page-header">
+			<h3>Team</h3>
+			<hr class="notop">
+		</div>
+ <div class="bs-docs-example" id="headertext" style="text-align: center;" data-content="Example">
+	<img src="assets/images/team.png">
+ </div>
+<pre class="prettyprint lang-html linenums"><xmp><ul class="our-team page-transition">
+    <li class="team-avatar col-xs-12 col-sm-6 col-md-4 col-lg-3">
+        <a href="link.html" class="team-info">
+            <div class="team-photo">
+                <img src="your_image.jpg" alt="image description">
+            </div>
+            <div class="overlay">
+                <div class="texts">
+                    <h4>John Doe</h4>
+                    <p>Manager</p>
+                    <i class="fa fa-angle-right fa-2x" aria-hidden="true"></i>
+                </div>
+            </div>
+        </a>
+    </li>
+    ...
+</ul>
+</xmp></pre>
+<!-- /Team -->
+</section>
+
+<section id="grid">
+<!-- Grid gallery -->
+		<div class="page-header">
+			<h3>Grid Gallery</h3>
+			<hr class="notop">
+		</div>
+ <div class="bs-docs-example" id="headertext" style="text-align: center;" data-content="Example">
+	<img src="assets/images/grid-gallery.png">
+ </div>
+<pre class="prettyprint lang-html linenums"><xmp><div class="works-content">
+<div id="filters">
+    <button class="btn-filter current" data-filter="*">show all</button>
+    <button class="btn-filter" data-filter=".sort">sort</button>
+    ...
+</div>
+<!-- Video Gallery -->
+<ul class="grid list-unstyled row" id="video-gallery">
+    <li class="grid-item col-xs-12 col-sm-6 col-md-6 web">
+        <a href="your_video_url" data-poster="poster_thumb">
+            <img src="your_thumb" alt="thumb"/>
+            <div class="grid-overlay">
+                <i class="fa fa-play" aria-hidden="true"></i>
+            </div>
+        </a>
+    </li>
+    ...
+</ul>
+<!-- Image Gallery-->
+<ul class="grid list-unstyled row" id="lightgallery">
+    <li class="grid-item col-xs-6 col-sm-6 col-md-6 web " data-src="your_original_image" data-sub-html="<h4>Title image</h4><p>Description.</p>">
+        <a href="#">
+            <img class="img-responsive" src="your_thumb_image" alt="thumb">
+            <div class="grid-overlay">
+                <i class="fa fa-play" aria-hidden="true"></i>
+            </div>
+        </a>
+    </li>
+    ...
+</ul>
+</xmp></pre>
+<!-- /Grid gallery -->
+</section>
+
+<section id="news">
+<!-- News -->
+		<div class="page-header">
+			<h3>News</h3>
+			<hr class="notop">
+		</div>
+ <div class="bs-docs-example" id="headertext" style="text-align: center;" data-content="Example">
+	<img src="assets/images/news.png">
+ </div>
+<pre class="prettyprint lang-html linenums"><xmp><article class="news-list">
+<ul>
+    <li>
+        <a href="single-post.html" class="news-info row">
+            <div class="news-date col-md-2 col-sm-12">11 November 16</div>
+            <div class="news-title col-md-10 col-sm-12">
+                <h2>Design is not making beauty, beauty emerges from selection, affinities, integration, love.</h2>
+                Written by <span>john doe</span>
+            </div>
+        </a>
+    </li>
+    ...
+</ul>
+</xmp></pre>
+<!-- /News -->
+</section>
+<section id="other">
+<!-- Other -->
+		<div class="page-header">
+			<h3>Other</h3>
+			<hr class="notop">
+		</div><br>
+<h2>Zoom image effect in Single Page.</h2>
+<p>Add a data-action="zoom" attribute to the images you want to make zoomable. For example:</p>
+<pre class="prettyprint lang-html"><xmp><img src="img/blog_post_featured.png" data-action="zoom">
+</xmp></pre><br>
+<h2>Making smart sticky elements.</h2>
+<p>Just call "stick_in_parent" on the elements you want to be stuck inside of their parent. Sticky elements “bottom out” so they never leave the container, no more worrying if a sticky element will accidentally cover your footer. For example:</p>
+<pre class="prettyprint lang-js ">$("#sidebar").stick_in_parent();</pre><br>
+<h2>Contact.php.</h2>
+<pre class="prettyprint lang-php"><xmp><?php 
+    $name=$_POST['name']; 
+    $email=$_POST['email']; 
+    $message=$_POST['message']; 
+    if (($name!="")||($email!="")||($message!="")) 
+        {         
+        $from="From: $name<$email>\r\nReturn-path: $email";
+        // Change subject
+        $subject="Message sent using your contact form";
+        // Change to your email
+        mail("yourmail@example.com", $subject, $message, $from); 
+        
+        echo "Email sent!"; 
+        }    
+?> 
+</xmp></pre><br>
+<!-- /Other -->
+</section>
+
+
+
+<section id="css_stucture">
+	<div class="page-header"><h3>CSS Stucture</h3><hr class="notop"></div>
+<pre class="prettyprint lang-css">
+01. General style
+02. Header
+03. Content
+04. About
+05. Gallery grid
+06. Project page
+07. News
+08. Services
+09. Contact
+10. Footer
+11. Responsive rules
+
+font-family: "Oswald", "Roboto", Helvetica, Arial, sans-serif;
+text color #4C5970
+hover/active color #0FBFE6</pre>
+</section>
+<section id="jquery_stucture">
+	<div class="page-header"><h3>JQUERY Stucture</h3><hr class="notop"></div>
+<pre class="prettyprint lang-js linenums">
+// Page transition
+// Sticky element
+// Mobile menu
+// Home slider
+// Project slider
+// Sticky header
+// Gallery grid
+// Paginat hover effect
+// Skills
+</pre>
+</section>
+<section id="source_credits">
+	<div class="page-header"><h3>Source & Credits</h3><hr class="notop"></div>
+<p>
+	Thanks so much to:</p>
+<ul>
+	<li><a href="http://jquery.com/">Jquery</a></li>
+	<li><a href="https://github.com/desandro/imagesloaded">Imagesloaded</a></li>
+	<li><a href="http://alvarotrigo.com/fullPage/">Anime.js</a></li>
+	<li><a href="http://isotope.metafizzy.co">Isotope</a></li>
+	<li><a href="http://sachinchoolur.github.io/lightGallery/">Lightgallery</a></li>
+	<li><a href="http://kenwheeler.github.io/slick">Slick slider</a></li>
+	<li><a href="http://leafo.net/sticky-kit/">Sticky-kit</a></li>
+	<li><a href="http://twbs.github.com/bootstrap/javascript.html#transitions">Transition</a></li>
+	<li><a href="https://github.com/fat/zoom.js">Zoom</a></li>
+</ul>
+<p>
+	&nbsp;</p>
+</section>
+
+	</div>
+	</div>
+</body>
+</html>
