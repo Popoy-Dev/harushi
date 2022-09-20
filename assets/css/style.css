@@ -1,6 +1,6 @@
 /**
- * Template Name: Ronin
- * Template URL:  http://ronin.madsparrow.us/
+ * Template Name: PRIMERA-OBRA
+ * Template URL:  http://PRIMERA-OBRA.madsparrow.us/
  * Version:       1.0
  * Author:        madsparrow.us
  * --------------------------------------------------------------
@@ -84,6 +84,10 @@ p {
     -webkit-transition: opacity .3s ease-out;
         -ms-transition: opacity .3s ease-out;
             transition: opacity .3s ease-out;
+}
+.logo-style {
+    font-family: black-mango;
+    color: #e6bf21
 }
 .hidden {
     position: absolute;
@@ -528,6 +532,14 @@ ul.follow li a:hover{
 }
 .s-bg,
 .s-bg-full {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.s-bg, img {
     width: 100%;
     height: 100%;
     border-radius: 8px;
@@ -1103,16 +1115,6 @@ margin: 0 auto 5px;
 }
 .work .lead {
     margin-top: 0;
-}
-.font-family-none{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 17px;
-}
-.padding-left-2 {
-    padding-left: 40px;
-}
-.a-logo{
-    font-size: 30px !important;
 }
 .project-info{
     min-height: 100px;
